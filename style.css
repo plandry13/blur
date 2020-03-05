@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.image-area {
+.img-area {
   background-image: url("b3.jpg");
   background-size: cover;
   background-position: center center;
@@ -11,16 +11,19 @@
   position: fixed;
   left: 0;
   right: 0;
-  z-index: -1;
+  z-index: -100;
   filter: blur(5px);
   -webkit-filter: blur(5px);
 }
 
 .header-text {
-  z-index: 2;
+  z-index: 100;
   border: 10px dashed #fff;
+  color: white;
+  font-size: 24px;
   width: 650px;
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50, -50%);
